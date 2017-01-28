@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Floating_islands.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{3838BA67-04A6-49DC-80C3-776FA6502D62}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Floating_islands.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Floating_islandsEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{6DCACDFC-352C-47CC-8BB0-C07285E6540E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Floating_islands">
+			<UniqueIdentifier>{90575AB8-FA62-45DA-B768-BBDB64E51B98}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Floating_islands\Floating_islands.Build.cs">
+			<Filter>Source\Floating_islands</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Floating_islands\Floating_islands.cpp">
+			<Filter>Source\Floating_islands</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Floating_islands\Floating_islands.h">
+			<Filter>Source\Floating_islands</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Floating_islands\Floating_islandsCharacter.cpp">
+			<Filter>Source\Floating_islands</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Floating_islands\Floating_islandsCharacter.h">
+			<Filter>Source\Floating_islands</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Floating_islands\Floating_islandsGameMode.cpp">
+			<Filter>Source\Floating_islands</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Floating_islands\Floating_islandsGameMode.h">
+			<Filter>Source\Floating_islands</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
